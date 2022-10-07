@@ -7,4 +7,23 @@ function chunks(num) {
     return num === 1 ? 'chunk' : 'chunk-' + chunks(num - 1)
 }
 
-console.log(chunks(3));
+const chunk = (num) => {
+    if(num === 0) {
+        return ''
+    }
+
+    if(num === 1) {
+        return 'chunk'
+    } else {
+        return 'chunk-' + chunk(num - 1)
+    }
+}
+
+const chun = (num) => {
+    if(num === 0) {
+        return ''
+    } return num === 1 ? 'chunk' : 'chunk-' + chun(num - 1)
+}
+
+console.log(chun(10));
+
