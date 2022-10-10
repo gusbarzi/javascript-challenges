@@ -6,6 +6,9 @@ function mediaAcademia(...numbers) {
     return sum / numbers.length;
 }
 
+
+
+
 function avarage(numbers) {
     let sum = 0
 
@@ -18,14 +21,19 @@ function avarage(numbers) {
     return avarage;
 }
 
+
+
+
 const mediaAcademy = (numbers) => {
     const sum = numbers.reduce((acc, num) => {
        return acc + num
     });
 
     return sum / numbers.length
-
 }
+
+
+
 
 function mediaArray(numbers) {
     sum = 0
@@ -38,9 +46,15 @@ function mediaArray(numbers) {
 }
 
 
+
+
 const mediaArr = (numbers) => {
     const sum = numbers.reduce((acc, num) => acc + num);
 
     return sum / numbers.length;
 }
+
+
+
+
 console.log(mediaArray([1, 2, 4, 5])) 
