@@ -16,8 +16,6 @@ const invertWord = (word) => {
 
 const invert2 = (str) => {
     return str.toLowerCase().split(' ').map(invertWord).join(' ')
-
-    
 }
 
 console.log(invert('Today is a good day for die'))

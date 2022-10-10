@@ -7,7 +7,6 @@ function quotation(fullName) {
     }
 
     return `${names[names.length - 1].toUpperCase()},${initials}`
-
 }
 
 console.log(quotation('Gustavo Henrique Barzi Silva'))
